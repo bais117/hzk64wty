@@ -1,0 +1,16 @@
+
+.tab {
+  background-color: lightblue;
+  width: 300px;
+}
+
+.tab div {
+  background-color: lightgreen;
+  height: 200px;
+  display: none;
+}
+
+.tab div.active {
+  display: block;
+}
+
