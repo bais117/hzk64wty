@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
-import { Button } from 'antd-mobile';
-import 'antd-mobile/dist/antd-mobile.css';
+// import { Button } from 'antd-mobile';
+// import 'antd-mobile/dist/antd-mobile.css';
 import './App.css';
-import Tab from './components/tab';
-
+import RouterCom from './router'
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props)
-  //   this.state= {
-  //        data:[],
-  //        currDivId: 0
-  //   }
-  // }
+  
   render() {
     return (
-      <div>
-       <Button type="primary">primary</Button>
+      <div className='app'>
+       <RouterCom />
       </div>
     );
   }
